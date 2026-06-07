@@ -75,3 +75,200 @@ Multithreaded-Web-Server 2
 ├── 📄 priority_client4
 └── 📄 server
 ```
+
+## How to Run (VS Code Terminal)
+
+### Step 1: Open Project in VS Code
+
+Open the project folder:
+
+```text
+Multithreaded-Web-Server
+```
+
+### Step 2: Open VS Code Terminal
+
+```text
+Terminal → New Terminal
+```
+
+### Step 3: Compile the Project
+
+```bash
+make clean
+make
+```
+
+### Step 4: Start the Server
+
+```bash
+./server
+```
+
+The server will start on:
+
+```text
+http://localhost:8080
+```
+
+A browser dashboard will open automatically.
+
+If it does not open automatically, visit:
+
+```text
+http://localhost:8080
+```
+
+### Step 5: Run Normal Clients
+
+Open separate VS Code terminals and run:
+
+```bash
+./client1
+```
+
+```bash
+./client2
+```
+
+```bash
+./client3
+```
+
+### Step 6: Run Priority Client
+
+Open another terminal and run:
+
+```bash
+./priority_client4
+```
+
+## How to Run (VS Code Terminal)
+
+### Step 1: Open Project in VS Code
+
+Open the project folder:
+
+```text
+Multithreaded-Web-Server
+```
+
+### Step 2: Open VS Code Terminal
+
+```text
+Terminal → New Terminal
+```
+
+### Step 3: Compile the Project
+
+```bash
+make clean
+make
+```
+
+### Step 4: Start the Server
+
+```bash
+./server
+```
+
+The server will start on:
+
+```text
+http://localhost:8080
+```
+
+A browser dashboard will open automatically.
+
+If it does not open automatically, visit:
+
+```text
+http://localhost:8080
+```
+
+### Step 5: Run Normal Clients
+
+Open separate VS Code terminals and run:
+
+```bash
+./client1
+```
+
+```bash
+./client2
+```
+
+```bash
+./client3
+```
+
+### Step 6: Run Priority Client
+
+Open another terminal and run:
+
+```bash
+./priority_client4
+```
+
+How to Run (VS Code Terminal)
+Step 1: Open Project in VS Code
+
+Open the project folder:
+
+Multithreaded-Web-Server
+Step 2: Open VS Code Terminal
+Terminal → New Terminal
+Step 3: Compile the Project
+make clean
+make
+Step 4: Start the Server
+./server
+
+The server will start on:
+
+http://localhost:8080
+
+A browser dashboard will open automatically.
+
+If it does not open automatically, visit:
+
+http://localhost:8080
+Step 5: Run Normal Clients
+
+Open separate VS Code terminals and run:
+
+./client1
+./client2
+./client3
+Step 6: Run Priority Client
+
+Open another terminal and run:
+
+./priority_client4
+
+### Expected Output
+
+#### Terminal
+
+* Client connections
+* Worker thread assignments
+* Request processing logs
+* Priority scheduling events
+* Pause and resume actions
+
+#### Browser Dashboard
+
+Real-time updates showing:
+
+* Total Requests
+* Normal Requests
+* Priority Requests
+* Connected Devices
+* Thread Activity
+* Queue Status
+* Response Time
+* Live Event Logs
+* Priority Client Status
+
+The dashboard updates automatically without refreshing the page.
+
