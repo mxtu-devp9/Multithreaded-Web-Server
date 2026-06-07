@@ -39,7 +39,8 @@ A special priority client can send a `/pause` request. When this happens, normal
 - Concurrent Request Processing
 
 ## Project Structure
-# File Tree: Multithreaded-Web-Server 2
+```text
+Multithreaded-Web-Server 2
 ├── 📁 clients
 │   ├── ⚡ client1.cpp
 │   ├── ⚡ client2.cpp
@@ -73,3 +74,4 @@ A special priority client can send a `/pause` request. When this happens, normal
 ├── 📄 client3
 ├── 📄 priority_client4
 └── 📄 server
+```
