@@ -107,7 +107,7 @@ Live Dashboard
 # 📂 Project Structure
 
 # CrossPlatform-Multithreaded-Web-Server-DASHBOARD-FINAL
-
+```
 ├── 📁 clients
 │   ├── ⚡ auto_demo_clients.cpp
 │   ├── ⚡ client1.cpp
@@ -154,7 +154,7 @@ Live Dashboard
 ├── 📄 priority_client4
 ├── 📄 server
 └── 📄 stress_client
-
+```
 ---
 
 # 💻 Technologies
