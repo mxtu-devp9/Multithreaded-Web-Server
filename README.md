@@ -173,5 +173,4 @@ Live Dashboard
 # 👨‍💻 Author
 
 **Miten Mistry**  
-Master's in Software Engineering  
-University of Europe for Applied Sciences
+
