@@ -51,23 +51,27 @@ Dashboard updates automatically without refreshing the browser.
 
 ---
 
-# ⚙️ How to Build
+# ⚙️ Build & Run
 
-## Clean Previous Build
+This project supports both **macOS** and **Windows**.
+
+---
+
+## 🍎 macOS
+
+### Clean Previous Build
 
 ```bash
 make clean
 ```
 
-## Compile
+### Compile
 
 ```bash
 make
 ```
 
----
-
-# ▶️ Run Server
+### Run Server
 
 ```bash
 ./server
@@ -83,7 +87,106 @@ Choose one of the following modes:
 3 → Auto Demo / Auto Stress Mode
 ```
 
+### Run Individual Clients
+
+```bash
+./client1
+./client2
+./client3
+./priority_client4
+```
+
+### Run Automatic Demo
+
+```bash
+./auto_demo_clients
+```
+
+### Run Continuous Client
+
+```bash
+./continuous_clients
+```
+
+### Run Stress Client
+
+```bash
+./stress_client
+```
+
+Stop the server anytime using:
+
+```text
+CTRL + C
+```
+
 ---
+
+# 🪟 Windows
+
+This project can be built using **MinGW/MSYS2** or **Visual Studio**.
+
+### Build using Makefile.windows
+
+```cmd
+mingw32-make -f Makefile.windows clean
+mingw32-make -f Makefile.windows
+```
+
+Or simply run:
+
+```cmd
+build_windows.bat
+```
+
+### Run Server
+
+```cmd
+server.exe
+```
+
+Choose one of the following modes:
+
+```text
+1 → Normal Mode
+
+2 → Stress Mode
+
+3 → Auto Demo / Auto Stress Mode
+```
+
+### Run Individual Clients
+
+```cmd
+client1.exe
+client2.exe
+client3.exe
+priority_client4.exe
+```
+
+### Run Automatic Demo
+
+```cmd
+auto_demo_clients.exe
+```
+
+### Run Continuous Client
+
+```cmd
+continuous_clients.exe
+```
+
+### Run Stress Client
+
+```cmd
+stress_client.exe
+```
+
+Stop the server anytime using:
+
+```text
+CTRL + C
+```
 
 # 👥 Client Endpoints
 
