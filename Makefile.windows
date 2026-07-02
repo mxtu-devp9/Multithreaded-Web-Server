@@ -1,0 +1,31 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
+LDFLAGS = -lws2_32
+
+SERVER_SRC = src/main.cpp src/Server.cpp src/ThreadPool.cpp src/RequestQueue.cpp src/ClientHandler.cpp src/Logger.cpp src/PriorityControl.cpp
+
+all: server.exe client1.exe client2.exe client3.exe priority_client4.exe auto_demo_clients.exe continuous_clients.exe
+
+server.exe:
+	$(CXX) $(CXXFLAGS) $(SERVER_SRC) -o server.exe $(LDFLAGS)
+
+client1.exe:
+	$(CXX) $(CXXFLAGS) clients/client1.cpp -o client1.exe $(LDFLAGS)
+
+client2.exe:
+	$(CXX) $(CXXFLAGS) clients/client2.cpp -o client2.exe $(LDFLAGS)
+
+client3.exe:
+	$(CXX) $(CXXFLAGS) clients/client3.cpp -o client3.exe $(LDFLAGS)
+
+priority_client4.exe:
+	$(CXX) $(CXXFLAGS) clients/priority_client4.cpp -o priority_client4.exe $(LDFLAGS)
+
+auto_demo_clients.exe:
+	$(CXX) $(CXXFLAGS) clients/auto_demo_clients.cpp -o auto_demo_clients.exe $(LDFLAGS)
+
+continuous_clients.exe:
+	$(CXX) $(CXXFLAGS) clients/continuous_clients.cpp -o continuous_clients.exe $(LDFLAGS)
+
+clean:
+	del /Q *.exe 2>nul || exit 0
